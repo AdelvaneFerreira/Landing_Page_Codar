@@ -1,0 +1,245 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+button{
+  all: unset;
+  cursor: pointer;
+}
+button:hover{
+text-decoration: underline;
+}
+
+.header{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.menu-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.menu-nav li{
+  list-style: none;
+  padding: 30px;
+}
+.menu-nav li:hover{
+  color: rgb(104, 5, 38);
+text-decoration: underline;
+}
+.menu-nav button{
+  
+  box-sizing: border-box;
+  text-align: center;
+  width: 100px;
+  height: 36px;
+  background-color: red;
+  border-radius: 20px;
+  color: white;
+}
+.figure-main{
+display: flex;
+justify-content: center;
+align-items: center;
+background-size: 100%;
+width: 50%;
+height: 600px;
+} 
+.main{
+  display: flex;
+  margin-bottom: 100px;
+}
+.txt-codar{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  text-align: center;
+  
+}
+.txt-codar h3, .celular p{
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  color: #000;
+}
+.txt-codar h1{
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: rgb(252, 5, 5);
+  margin-top: 15px;
+}
+.txt-codar button{
+  
+  box-sizing: border-box;
+  width: 40%;
+  height: 45px;
+  font-size: 20px;
+  margin-top: 90px;
+  border-radius: 10px;
+  background-color:  rgb(252, 5, 5);
+  font-weight: 400;
+  color: white;
+  letter-spacing: 2px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+}
+.services{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  justify-self: center;
+  width: 100%;
+  height: 600px;
+}
+.services ul{
+  height: 250px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  color: rgb(11, 1, 31);
+  list-style: none;
+}
+.celular{
+ margin-top: 150px;
+}
+.services ul img{
+  border-radius: 50%;
+  background-color: red;
+  margin-right: 15px;
+}
+.celular input{
+  all: unset;
+  width: 40%;
+  height: 45px;
+  background-color: rgb(128, 128, 128, 0.5); 
+  border-radius: 10px;
+
+}
+.celular input::placeholder{
+  padding-left: 20px;
+}
+.celular button{
+  box-sizing: border-box;
+  width: 50%;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color:  rgb(252, 5, 5);
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.people{
+  display: flex;
+  flex-direction: row;
+  height: 175px;
+  margin-top: 150px;
+}
+.pedro-people, .maria-people{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:start;
+  justify-self: center;
+  width: 50%;
+ padding:  15px;
+  background-color: rgb(194, 189, 189);
+  border-radius: 15px;
+}
+.pedro-people{
+  margin-left: 100px;
+  margin-right: 25px;
+}
+.maria-people{
+  margin-right: 100px;
+}
+.pedro-ferreira, .maria-rita{
+  width: 65%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  margin-left: 25px;
+}
+.pedro-ferreira p, .maria-rita p{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(7, 7, 7);
+  margin-top: 10px;
+}
+.pedro-ferreira h1, .maria-rita h1{
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(7, 7, 7);
+  margin-top: 10px;
+}
+.rodape{
+  margin-top: 100px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #000;
+}
+.website, .sobre, .narnia, .redes-sociais{
+  width: 25%;
+  height: 27vh;
+  text-align: center;
+}
+.narnia a{
+  text-decoration: underline;
+  color: white;
+}
+.website h1, .sobre h1, .narnia h1, .redes-sociais h1{
+  color: white;
+  padding-bottom: 15px;
+}
+.website h2, .sobre h2, .narnia h2, .redes-sociais h2{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.redes-sociais img{
+  background-color: red;
+  border: 2px solid red;
+  border-radius: 5px;
+  width: 35px;
+  height: 35px;
+  margin:  10px;
+}
+
+.imgs-redes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
